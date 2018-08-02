@@ -178,14 +178,15 @@ export default class ModalComponent extends Component {
               <td className={styles.maintableright}>
                 {amen.air_conditioning ? (
                   <div>
-                    <img src={aircon} /> Air Conditioning
+                    <img className={styles.images} src={aircon} /> Air
+                    Conditioning
                   </div>
                 ) : null}
               </td>
               <td className={styles.maintableleft}>
                 {amen.bathroom ? (
                   <div>
-                    <img src={toilet} /> Bathroom
+                    <img className={styles.images} src={toilet} /> Bathroom
                   </div>
                 ) : null}
               </td>
@@ -194,14 +195,14 @@ export default class ModalComponent extends Component {
               <td className={styles.maintableright}>
                 {amen.tv ? (
                   <div>
-                    <img src={television} /> TV
+                    <img className={styles.images} src={television} /> TV
                   </div>
                 ) : null}
               </td>
               <td className={styles.maintableleft}>
                 {amen.queen_size_bed ? (
                   <div>
-                    <img src={bed} /> Queen Sized Bed
+                    <img className={styles.images} src={bed} /> Queen Sized Bed
                   </div>
                 ) : null}
               </td>
@@ -210,14 +211,14 @@ export default class ModalComponent extends Component {
               <td className={styles.maintableright}>
                 {amen.wifi ? (
                   <div>
-                    <img src={wifi} /> Wifi
+                    <img className={styles.images} src={wifi} /> Wifi
                   </div>
                 ) : null}
               </td>
               <td className={styles.maintableleft}>
                 {amen.hair_dryer ? (
                   <div>
-                    <img src={hairdryer} /> Hair Dryer
+                    <img className={styles.images} src={hairdryer} /> Hair Dryer
                   </div>
                 ) : null}
               </td>
