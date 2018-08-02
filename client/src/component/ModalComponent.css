@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'CerealBold';
+  src: url('../styles/Cereal/AirbnbCereal-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'CerealBook';
+  src: url('../styles/Cereal/AirbnbCereal-Book.ttf');
+}
+
+@font-face {
+  font-family: 'CerealLight';
+  src: url('../styles/Cereal/AirbnbCereal-Light.ttf');
+}
+
+.openup {
+  color: #347b8a;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'CerealBook';
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 15px;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.table {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.head {
+  color: #353434;
+  text-align: left;
+  margin-left: 15px;
+  font-family: 'CerealBold';
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 150px 10px 20px;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.3px solid #eee;
+  margin: 1em 0;
+  padding: 0;
+  color: #6d6c6c;
+}
+
+.maintableleft {
+  font-family: 'CerealLight';
+  padding: 8px 15px 10px 15px;
+  font-size: 15px;
+  text-align: left;
+  color: #353434;
+}
+
+.maintableright {
+  font-family: 'CerealLight';
+  /* margin-right: 800px;   */
+  padding: 8px 150px 10px 15px;
+  font-size: 15px;
+  color: #353434;
+}
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: absolute;
+  width: 600px;
+  background-color: white;
+  border-radius: 0%;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  font-family: 'CerealLight';
+  outline: none;
+  /* overflow: auto; */
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+.modalgut {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* spacing as needed */
+  padding: 20px 50px 20px 20px;
+
+  /* let it scroll */
+  overflow: auto;
+}
+
+.subtitle {
+  font-family: 'CerealBold';
+  color: #353434;
+  padding: 8px 150px 10px 35px;
+}
+
+.exit {
+  background-color: white;
+  color: #353434;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 35px;
+  height: 35px;
+  /* display: table-cell; */
+  vertical-align: middle;
+  padding: 7px;
+}
+
+.modalsubtitle {
+  font-family: 'CerealBook';
+  font-size: 18px;
+  padding: 8px 150px 30px 35px;
+  font-style: bold;
+  color: #353434;
+}
+
+.modalamen {
+  font-family: 'CerealLight';
+  font-size: 15px;
+  padding: 8px 150px 10px 35px;
+  color: #353434;
+}
