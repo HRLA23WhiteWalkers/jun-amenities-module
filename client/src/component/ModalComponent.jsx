@@ -87,11 +87,12 @@ export default class ModalComponent extends Component {
     let option = {
       params: {
         propertyListing: this.state.propertyListing
-      }
+      },
+      headers: { 'Access-Control-Allow-Origin': '*' }
     };
     // let amenities = { ...this.state.amenities };
     axios
-      .get('/api/amenities', option)
+      .get('http://localhost:3012/api/amenities', option)
       .then(results => {
         let amen = results.data;
 
